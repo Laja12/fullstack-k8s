@@ -1,0 +1,26 @@
+
+{
+  "name": "node-mongo-demo",
+  "version": "1.0.0",
+  "description": "Node.js frontend talking to MongoDB, deployable to Kubernetes with core resources.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "NODE_ENV=development nodemon server.js",
+    "lint": "echo \"(optional) add eslint here\""
+  },
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20 <21"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongodb": "^6.5.0",
+    "prom-client": "^15.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
